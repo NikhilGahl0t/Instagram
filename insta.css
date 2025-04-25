@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.upper-box{
+    margin-top: 60px;
+    border: 0.5px solid rgb(179, 179, 179);
+    width: 18%;
+    padding: 40px 0px;
+    border-radius: 6px;
+}
+
+input{
+    background-color: rgb(228, 228, 228);
+    width: 85%;
+    height: 30px;
+    padding: 5px;
+    color: rgb(122, 122, 122);
+    border: 0.5px rgb(205, 205, 205) solid;
+    border-radius: 8px;
+    margin-bottom: 15px ;
+}
+
+input:hover{
+    background-color:rgb(207, 207, 207);
+    transition: 0.3s;
+}
+
+.info{
+    padding:  40px 0px;
+}
+
+.login{
+    background-color: #00b3ff;
+    border-radius: 8px;
+    color: white;
+    border: 0.5px #00b3ff solid;
+    width: 60%;
+    height: 35px;
+}
+
+.login:hover{
+    background-color: #00aaf3;
+    transition: 0.5s;
+    border: 0.5px rgb(159, 159, 159) solid;
+}
+
+.OR{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(151, 151, 151);
+}
+
+.left{
+    width: 130px;
+    height: 1px;
+    background-color: rgb(151, 151, 151);
+}
+
+.right{
+    width: 130px;
+    height: 1px;
+    background-color: rgb(151, 151, 151);
+}
+
+.fb img{
+    width: 28px;
+}
+
+.fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.fb p a{
+    color: rgb(0, 110, 255) ;
+}
+
+.lower-box{
+    margin-top: 20px;
+    border: 0.5px solid rgb(179, 179, 179);
+    width: 18%;
+    padding: 15px 0px;
+    border-radius: 6px;
+}
+
+.lower-box p a{
+    color: rgb(0, 110, 255);
+    font-weight: 500;
+}
+
+.apps{
+    padding-top: 20px;
+}
+
+.links a img{
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+
+.footer {
+    width: 1300px;
+    height: 100px;
+    align-content: center;
+    margin-top: 80px;
+    padding-left: 480px;
+    font-size: 13px;
+  }
+  
+  .upper-footer ul li {
+    display: inline-block;
+  }
+  
+  .upper-footer ul li a {
+    text-decoration: none;
+    color: slategray;
+    padding: 15px;
+  }
+  
+  .bottom-footer {
+    margin-top: 20px;
+    margin-left: 370px;
+  }
+  
+  .bottom-footer span {
+    font-size: 13px;
+    color: slategray;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .bottom-footer select {
+    outline: none;
+    border: none;
+    color: slategray;
+    background-color: white;
+  }
+  
